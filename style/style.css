@@ -1,0 +1,172 @@
+/* Font Style */
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oleo+Script&family=Poppins:wght@500&display=swap');
+
+/* Utilities */
+body{
+    font-family: 'Lobster', cursive;
+    font-family: 'Oleo Script', cursive;
+    font-family: 'Poppins', sans-serif;
+    }
+
+/* Header Style */
+
+.header{
+
+   position: absolute;
+   display: flex;
+   width: 64.5%;
+   height: 60.5%;
+   right: 12%;
+   left: 19%;
+   top: 57px;
+   background-color: rgb(22, 21, 21);
+   border-radius: 30px;
+   
+}
+
+.text{
+
+    position: absolute;
+    width: 531px;
+    height: 424px;
+    top: -20px;
+    left: 15px;
+    color: #ffffff;
+    padding: 50px; 
+    font-size: 20px;   
+}
+
+.normaltext{
+    font-size: 15px;
+}
+
+.live{
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 20px; 
+    text-align: center; 
+    border-radius: 5px; 
+}
+
+.image{
+   
+    margin-left: 650px;
+    margin-top: 115px;
+    
+}
+
+/* Main Style */
+ main{
+    display: flex;
+ }
+
+
+
+.all{
+    display: flex;
+    flex-direction: column;
+    padding-top: 620px;
+    padding-left: 198px;
+    font-size: 30px;  
+}
+
+.um{
+  
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    background-color: rgb(28, 28, 28);
+    padding: 20px;
+    height: 150%;
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;   
+}
+
+
+#remove{
+
+    text-decoration: none;
+    color:black;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 2px;
+    font-size: 30px;   
+}
+
+/* Transfer Style */
+.container{
+
+    display: grid;
+    grid-template-columns: repeat(6 1fr);
+    grid
+}
+
+.transfer{
+
+    position: absolute;
+    top: 87.5%;
+    left:42%;
+    width: 312px;
+    height: 175px;
+}
+
+
+.trans{
+    position: absolute;
+    top: 110%;
+    left:42%;
+    width: 312px;
+    height: 175px;
+}
+
+.translive{
+    position: absolute;
+    top: 115%;
+    left:42%;
+    width: 312px;
+    height: 175px;
+}
+
+.icons{
+    position: absolute;
+    top: 125%;
+    left:42%;
+    width: 312px;
+    height: 175px;
+}
+
+.time{
+    position: absolute;
+    top: 123%;
+    left:45%;
+    width: 312px;
+    height: 175px;
+}
+
+.comment{
+    position: absolute;
+    top: 125%;
+    left:50%;
+    width: 312px;
+    height: 175px;
+}
+
+
+
+
+
+
+
+ 
+    
+
+
+
+
+
+
