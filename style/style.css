@@ -209,6 +209,24 @@ footer {
     height: 175px;
 }
 
+/* media */
+
+@media only screen and (max-width: 360px) {
+
+    .header{
+        flex-direction: column;
+    }
+
+    .text{
+        
+    }
+
+    .image{
+        display: grid;
+        grid-template-rows: ;
+    }
+}
+
 
 
 
