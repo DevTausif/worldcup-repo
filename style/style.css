@@ -99,18 +99,12 @@ body{
 }
 
 /* Transfer Style */
-.container{
-
-    display: grid;
-    grid-template-columns: repeat(6 1fr);
-    grid
-}
 
 .transfer{
 
     position: absolute;
     top: 87.5%;
-    left:42%;
+    left: 42%;
     width: 312px;
     height: 175px;
 }
@@ -152,6 +146,65 @@ body{
     position: absolute;
     top: 125%;
     left:50%;
+    width: 312px;
+    height: 175px;
+}
+
+footer {
+    position:relative;
+    left: 0;
+    width: 1600px;
+    height: 444px;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center; 
+}
+
+.terms{
+    padding-top: 5%;
+    
+}
+
+/* Page style */
+
+.ger{
+    position: absolute;
+    top: 88.5%;
+    left: 50%;
+    width: 312px;
+    height: 175px;
+}
+
+.fran{
+    position: absolute;
+    top: 88.5%;
+    left: 40%;
+    width: 312px;
+    height: 175px;
+}
+
+.vs{
+    position: absolute;
+    top: 88.5%;
+    left: 47%;
+    width: 312px;
+    height: 175px;
+}
+
+.play{
+    position: absolute;
+    top: 96%;
+    left: 40%;
+    width: 312px;
+    height: 175px;
+}
+
+.dt{
+    position: absolute;
+    top: 105%;
+    left: 42%;
     width: 312px;
     height: 175px;
 }
